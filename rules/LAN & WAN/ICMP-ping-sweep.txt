@@ -1,0 +1,2 @@
+alert icmp any any -> any any (msg:"SURICATA ICMP Ping Sweep Detected"; threshold:type both, track by_src, count 10, seconds 5; classtype:attempted-recon; sid:4000008; rev:1;)
+

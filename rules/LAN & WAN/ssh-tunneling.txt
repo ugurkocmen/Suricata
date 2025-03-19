@@ -1,0 +1,2 @@
+alert tcp any any -> any 22 (msg:"SURICATA SSH Tunneling Detected - Unauthorized Encrypted Traffic"; flow:to_server,established; content:"-L"; nocase; content:"-R"; nocase; content:"-D"; nocase; classtype:bad-unknown; sid:5000003; rev:1;)
+

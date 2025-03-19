@@ -1,0 +1,2 @@
+alert tcp any any -> any any (msg:"SURICATA Possible Worm Propagation"; threshold:type both, track by_src, count 10, seconds 10; classtype:worm-activity; sid:2000006; rev:1;)
+

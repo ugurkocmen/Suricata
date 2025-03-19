@@ -1,0 +1,2 @@
+alert ethernet any any -> any any (msg:"SURICATA MAC Flooding Attack"; detection_filter:track by_src, count 50, seconds 10; classtype:attempted-dos; sid:2000013; rev:1;)
+

@@ -1,0 +1,2 @@
+alert tcp any any -> any any (msg:"SURICATA Possible Reverse Shell Detected"; content:"nc -e"; nocase; content:"/bin/bash"; nocase; content:"cmd.exe"; nocase; classtype:bad-unknown; sid:5000002; rev:1;)
+

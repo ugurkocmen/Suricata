@@ -1,0 +1,2 @@
+alert http any any -> any any (msg:"SURICATA Possible Data Exfiltration via HTTP"; content:"base64"; nocase; content:"Authorization: Basic "; nocase; classtype:data-theft; sid:5000004; rev:1;)
+

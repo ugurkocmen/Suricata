@@ -1,0 +1,2 @@
+alert udp any any -> any 1194 (msg:"SURICATA Unauthorized OpenVPN Connection"; classtype:bad-unknown; sid:4000009; rev:1;)
+alert udp any any -> any 51820 (msg:"SURICATA Unauthorized WireGuard VPN Connection"; classtype:bad-unknown; sid:4000010; rev:1;)

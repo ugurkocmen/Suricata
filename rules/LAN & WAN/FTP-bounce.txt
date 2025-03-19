@@ -1,0 +1,2 @@
+alert tcp any any -> any 21 (msg:"SURICATA FTP Bounce Attack Detected"; content:"PORT "; depth:5; classtype:attempted-recon; sid:5000007; rev:1;)
+

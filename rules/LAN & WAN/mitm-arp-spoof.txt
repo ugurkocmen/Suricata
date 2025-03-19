@@ -1,0 +1,2 @@
+alert arp any any -> any any (msg:"SURICATA ARP Spoofing Attack Detected"; content:"|00 01 08 00 06 04 00 02|"; threshold:type both, track by_src, count 5, seconds 10; classtype:bad-unknown; sid:4000012; rev:1;)
+

@@ -1,0 +1,2 @@
+alert http any any -> any any (msg:"SURICATA SQL Injection Attempt"; content:"UNION SELECT"; nocase; content:"' OR '1'='1"; nocase; classtype:web-application-attack; sid:3000004; rev:1;)
+
