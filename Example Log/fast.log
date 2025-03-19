@@ -1,0 +1,13 @@
+03/19/2025-07:03:45.123  [**] [1:2000001:3] ET SCAN Nmap FIN Scan [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 192.168.50.105:40001 -> 195.174.37.50:80
+03/19/2025-07:11:20.456  [**] [1:2000002:3] ET SCAN Nmap XMAS Scan [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 192.168.50.105:40002 -> 195.174.37.50:443
+03/19/2025-07:21:33.789  [**] [1:2000003:3] ET SCAN Nmap TCP Scan [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 192.168.50.105:40003 -> 195.174.37.50:22
+03/19/2025-07:34:15.234  [**] [1:2000004:3] ET SCAN Nmap UDP Scan [**] [Classification: Attempted Information Leak] [Priority: 3] {UDP} 192.168.50.105:40004 -> 195.174.37.50:53
+03/19/2025-07:45:50.678  [**] [1:2000005:3] ET SCAN Nmap TCP ACK Scan [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 192.168.50.105:40005 -> 195.174.37.50:445
+03/19/2025-07:51:12.910  [**] [1:2000006:3] ET SCAN Nmap TCP SYN Scan [**] [Classification: Attempted Information Leak] [Priority: 3] {TCP} 192.168.50.105:40006 -> 195.174.37.50:3389
+.
+.
+.
+.
+.
+.
+.
