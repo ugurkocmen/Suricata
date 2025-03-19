@@ -1,2 +1,0 @@
-alert tcp any any -> any 445 (msg:"SURICATA Possible SMB Exploit or Lateral Movement"; classtype:bad-unknown; sid:4000013; rev:1;)
-

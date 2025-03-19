@@ -1,2 +1,0 @@
-alert arp any any -> any any (msg:"SURICATA Possible MITM Attack - ARP Spoofing Detected"; detection_filter:track by_src, count 5, seconds 10; classtype:bad-unknown; sid:2000002; rev:1;)
-

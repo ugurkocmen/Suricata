@@ -1,2 +1,0 @@
-alert icmp any any -> any 255.255.255.255 (msg:"SURICATA Smurf Attack Detected"; classtype:attempted-dos; sid:2000015; rev:1;)
-
