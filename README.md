@@ -9,12 +9,6 @@ You can find all the LAN and WAN rules I used in my project in this repository.
 
 Ubuntu 24.04 LTS - 4GB RAM - 80GB Storage - 4CPU CORE
 
-## Screenshots
-
-![App Screenshot]()
-
-![App Screenshot]()
-
 ## What is Suricata and what does it do?
 
 Suricata is a tool used to ensure network security and take precautions against cyber threats. It monitors and analyzes network traffic, and if it detects any suspicious activity, it alerts us. If properly configured, it can also block attacks. It functions as both an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS).
