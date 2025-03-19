@@ -1,0 +1,2 @@
+alert tcp any any -> any any (msg:"SURICATA TCP SYN Flood Detected"; flags:S; threshold:type both, track by_src, count 50, seconds 5; classtype:attempted-dos; sid:3000007; rev:1;)
+

@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"SURICATA Nmap SYN Scan Detected"; flags:S; detection_filter:track by_src, count 10, seconds 5; classtype:attempted-recon; sid:4000004; rev:1;)

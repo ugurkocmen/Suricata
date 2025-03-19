@@ -1,0 +1,2 @@
+alert ethernet any any -> any any (msg:"SURICATA VLAN Hopping Attack"; content:"|81 00|"; offset:12; classtype:bad-unknown; sid:2000014; rev:1;)
+

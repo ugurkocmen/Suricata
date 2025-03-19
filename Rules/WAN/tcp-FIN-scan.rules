@@ -1,0 +1,2 @@
+alert tcp any any -> any any (msg:"SURICATA TCP FIN Scan Detected"; flags:F; detection_filter:track by_src, count 10, seconds 5; classtype:attempted-recon; sid:3000010; rev:1;)
+

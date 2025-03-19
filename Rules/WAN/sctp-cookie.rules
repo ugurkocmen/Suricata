@@ -1,0 +1,2 @@
+alert sctp any any -> any any (msg:"SURICATA SCTP Cookie Attack Detected"; detection_filter:track by_src, count 10, seconds 10; classtype:bad-unknown; sid:3000013; rev:1;)
+

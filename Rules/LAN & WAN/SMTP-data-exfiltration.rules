@@ -1,0 +1,2 @@
+alert tcp any any -> any 25 (msg:"SURICATA SMTP Data Exfiltration Detected"; flow:to_server,established; content:"Content-Disposition: attachment"; nocase; classtype:data-theft; sid:5000008; rev:1;)
+

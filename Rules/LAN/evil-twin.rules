@@ -1,0 +1,2 @@
+alert udp any any -> any 67 (msg:"SURICATA Evil Twin Attack - Unauthorized DHCP"; threshold:type both, track by_src, count 3, seconds 10; classtype:bad-unknown; sid:2000009; rev:1;)
+
