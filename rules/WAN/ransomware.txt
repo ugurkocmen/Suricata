@@ -1,2 +1,0 @@
-alert http any any -> any any (msg:"SURICATA Ransomware File Transfer"; content:".locky"; nocase; classtype:malware-cnc; sid:3000008; rev:1;)
-

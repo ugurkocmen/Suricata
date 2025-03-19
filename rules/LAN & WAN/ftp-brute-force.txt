@@ -1,2 +1,0 @@
-alert tcp any any -> any 21 (msg:"SURICATA FTP Brute-Force Attack"; threshold:type both, track by_src, count 5, seconds 10; classtype:attempted-recon; sid:4000003; rev:1;)
-

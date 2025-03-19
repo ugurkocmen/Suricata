@@ -1,2 +1,0 @@
-alert tcp any any -> any 25 (msg:"SURICATA Possible SMTP Relay Abuse - Unauthorized Mail Relay"; flow:to_server,established; content:"MAIL FROM:"; nocase; content:"RCPT TO:"; nocase; threshold:type both, track by_src, count 10, seconds 5; classtype:bad-unknown; sid:5000001; rev:1;)
-

@@ -1,2 +1,0 @@
-alert udp any 67 -> any 68 (msg:"SURICATA Rogue Device - Unauthorized DHCP Server Detected"; content:"|02|"; offset:0; depth:1; content:"|63 82 53 63|"; distance:0; classtype:bad-unknown; sid:2000001; rev:1;)
-

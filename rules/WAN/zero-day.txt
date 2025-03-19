@@ -1,1 +1,0 @@
-alert http any any -> any any (msg:"SURICATA Possible Zero-Day Exploit Tool Detected"; content:"metasploit"; nocase; classtype:bad-unknown; sid:3000001; rev:1;)

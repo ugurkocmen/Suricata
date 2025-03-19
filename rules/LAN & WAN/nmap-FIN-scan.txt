@@ -1,2 +1,0 @@
-alert tcp any any -> any any (msg:"SURICATA Nmap FIN Scan Detected"; flags:F; detection_filter:track by_src, count 10, seconds 5; classtype:attempted-recon; sid:4000005; rev:1;)
-

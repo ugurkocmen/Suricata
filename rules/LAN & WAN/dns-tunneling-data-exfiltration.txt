@@ -1,2 +1,0 @@
-alert udp any any -> any 53 (msg:"SURICATA DNS Tunneling Detected - Possible Data Exfiltration"; dsize:>100; classtype:data-theft; sid:5000005; rev:1;)
-

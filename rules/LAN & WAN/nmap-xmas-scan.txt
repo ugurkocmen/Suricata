@@ -1,2 +1,0 @@
-alert tcp any any -> any any (msg:"SURICATA Nmap Xmas Scan Detected"; flags:FPU; classtype:attempted-recon; sid:4000006; rev:1;)
-

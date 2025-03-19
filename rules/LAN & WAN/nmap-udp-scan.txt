@@ -1,2 +1,0 @@
-alert udp any any -> any any (msg:"SURICATA Nmap UDP Scan Detected"; detection_filter:track by_src, count 10, seconds 5; classtype:attempted-recon; sid:4000007; rev:1;)
-

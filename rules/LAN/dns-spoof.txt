@@ -1,2 +1,0 @@
-alert udp any 53 -> any any (msg:"SURICATA DNS Spoofing Attack"; content:"|C0 0C|"; depth:2; classtype:bad-unknown; sid:2000007; rev:1;)
-

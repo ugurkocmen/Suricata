@@ -1,2 +1,0 @@
-alert icmp any any -> any any (msg:"SURICATA ICMP Data Exfiltration Detected"; dsize:>100; classtype:data-theft; sid:5000006; rev:1;)
-

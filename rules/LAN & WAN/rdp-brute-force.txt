@@ -1,2 +1,0 @@
-alert tcp any any -> any 3389 (msg:"SURICATA RDP Brute-Force Attack"; threshold:type both, track by_src, count 5, seconds 10; classtype:attempted-recon; sid:4000002; rev:1;)
-

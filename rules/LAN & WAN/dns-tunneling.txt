@@ -1,2 +1,0 @@
-alert udp any any -> any 53 (msg:"SURICATA DNS Tunneling Attack"; dsize:>100; classtype:bad-unknown; sid:4000011; rev:1;)
-
